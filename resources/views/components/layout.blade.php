@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html class="h-full bg-gray-100">
+  <!-- resources/views/components/layout.blade.php -->
+  <!-- 添加下面的 CDN -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- 记得一定要引入 tailwindcss cdn -->
-
+    <!-- 添加下面的 CDN 代码 -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
     <title>Laravel</title>
   </head>
   <body class="h-full">
